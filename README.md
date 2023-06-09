@@ -17,5 +17,7 @@ npm install
 npm start
 ```
 
-**Mira la presentación en tu navegador**
+**Mira la presentación en tu navegador**  
 Podras ver la presentación en: [localhost:8000](http://localhost:8000)
+
+**TODO :**  
