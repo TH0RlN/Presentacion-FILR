@@ -21,3 +21,6 @@ npm start
 Podras ver la presentación en: [localhost:8000](http://localhost:8000)
 
 **TODO :**  
+Requisitos cliente
+Demostración
+Parte Empresa
