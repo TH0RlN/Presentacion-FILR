@@ -100,5 +100,8 @@
       "no-eq-null": 2,
       "no-unused-expressions": 0
     }
+  },
+  "dependencies": {
+    "reveal.js-internation": "^1.1.0"
   }
 }
