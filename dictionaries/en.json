@@ -1,0 +1,96 @@
+{
+    "slides": {
+        "lang": {
+            "lang": "English"
+        },
+        "filr": {
+            "title": "What is FILR?"
+        },
+        "require-title": {
+            "reqTitle": "Client Requirements"
+        },
+        "require": {
+            "reqTitle": "Client Requirements",
+            "fControl": "Control of the employees' working hours",
+            "mTimetable": "Management of the employees' timetables",
+            "rEmployee": "Register of employees",
+            "pRequest": "Permit request",
+            "piAccess": "Access to the employees' personal information"
+        },
+        "tech": {
+            "uTech": "Used Technologies"
+        },
+        "laravel": {
+            "uTech": "Used Technologies"
+        },
+        "vue": {
+            "uTech": "Used Technologies"
+        },
+        "tail": {
+            "uTech": "Used Technologies"
+        },
+        "git": {
+            "uTech": "Used Technologies"
+        },
+        "trello": {
+            "uTech": "Used Technologies"
+        },
+        "bizz-title": {
+            "fBussinnes": "Filr as a business"
+        },
+        "bizz": {
+            "fBussinnes": "Filr as a business",
+            "sa": "Limited company",
+            "ff": "Source of income",
+            "im": "Monthly income",
+            "inv": "Investments",
+            "loc": "Location"
+        },
+        "glimpse": {
+            "vFilr": "A glimpse of Filr"
+        },
+        "vg-adm": {
+            "vFilr": "A glimpse of Filr",
+            "vg-adm": "Dashboard - Administrator"
+        },
+        "vg-usr": {
+            "vFilr": "A glimpse of Filr",
+            "vg-usr": "Dashboard - User"
+        },
+        "regNew": {
+            "vFilr": "A glimpse of Filr",
+            "regNew": "New User Registration"
+        },
+        "permReq": {
+            "vFilr": "A glimpse of Filr",
+            "permReq": "Permit Request"
+        },
+        "editUsr": {
+            "vFilr": "A glimpse of Filr",
+            "editUsr": "Profile Edition - User"
+        },
+        "editAdm": {
+            "vFilr": "A glimpse of Filr",
+            "editAdm": "Profile Edition - Administrato"
+        },
+        "usrDet": {
+            "vFilr": "A glimpse of Filr",
+            "usrDet": "User details"
+        },
+        "newDR": {
+            "vFilr": "A glimpse of Filr",
+            "newDR": "New Date Range"
+        },
+        "future-title": {
+            "future": "Future Improvements"
+        },
+        "future": {
+            "future": "Future Improvements",
+            "incRes": "Incidence resolution",
+            "repGen": "Report generation",
+            "stdDoc": "Standard documents",
+            "noLec": "Non lective days",
+            "schTim": "School Schedule"
+        }
+    }
+}

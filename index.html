@@ -35,22 +35,46 @@
 			margin-top: 0.5em;
 			margin-bottom: 1em;
 		}
+
+		.hidden
+		{
+			display: none;
+		}
+
+		.btn:hover {
+			cursor: pointer;
+		}
 	</style>
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-auto-animate>
-				<img src="src/svg/logo.svg" alt="logo" style="height: 10em;">
-				<h1>FILR</h1>
+			<section data-auto-animate id="main">
+				<section>
+					<img src="src/svg/logo.svg" alt="logo" style="height: 10em;">
+					<h1>FILR</h1>
+				</section>
+				<section id="lang">
+					<div>
+						<label for="es" class="btn">
+							<img src="src/svg/spain.svg" alt="es" style="height: 2em;">
+						</label>
+						<input type="radio" name="lang" id="es" checked class="langchooser hidden" value="es">
+						<label for="en" class="btn">
+							<img src="src/svg/uk.svg" alt="en" style="height: 2em;">
+						</label>
+						<input type="radio" name="lang" id="en"  class="langchooser hidden" value="en">
+					</div>
+					<h6 class="text" data-i18n="lang">Español</h6>
+				</section>
 			</section>
 
 			<!-- ¿QUÉ ES FILR? -->
 			<section data-background-transition="concave" data-background-transition-speed="slow"
 				data-transition="fade">
 				<section data-background-image="src/svg/question.svg" data-background-size="200px"
-					data-background-repeat="repeat" data-auto-animate>
+					data-background-repeat="repeat" data-auto-animate id="filr">
 					<img src="src/svg/logo.svg" alt="logo" style="height: 5em;">
 					<p data-i18n="title" class="text">¿Qué es FILR?</p>
 				</section>
@@ -58,7 +82,7 @@
 
 			<!-- REQUISITOS CLIENTE -->
 			<section>
-				<section data-auto-animate>
+				<section data-auto-animate id="require-title">
 					<div>
 						<img class="margin-x" src="src/svg/person.svg" alt=""
 							style="height: 4em; display: inline-block;">
@@ -68,7 +92,7 @@
 					<h3 data-i18n="reqTitle" class="text">Requisitos del cliente</h3>
 				</section>
 
-				<section data-auto-animate>
+				<section data-auto-animate id="require">
 					<h3 data-i18n="reqTitle" class="text">Requisitos del cliente</h3>
 					<div>
 						<img src="src/svg/control.svg" alt="control" style="height: 2em; display: inline-block;">
@@ -100,7 +124,7 @@
 			<!-- TECNOLOGÍAS UTILIZADAS -->
 			<section data-background-video="./src/video/code-back-2.mp4" data-background-video-loop>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="tech">
 					<div>
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -118,7 +142,7 @@
 					</div>
 				</section>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="laravel">
 					<div class="tech">
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -137,7 +161,7 @@
 					<h6 class="text r-stretch">Laravel + MySQL</h6>
 				</section>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="vue">
 					<div class="tech">
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -158,7 +182,7 @@
 					<h6 class="text r-stretch">Vue</h6>
 				</section>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="tail">
 					<div class="tech">
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -179,7 +203,7 @@
 					<h6 class="text r-stretch">Tailwind + Daisy-UI</h6>
 				</section>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="git">
 					<div class="tech">
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -198,7 +222,7 @@
 					<h6 class="text r-stretch">Git + GitHub</h6>
 				</section>
 				<section data-auto-animate data-background-video="./src/video/code-back-2.mp4"
-					data-background-video-loop>
+					data-background-video-loop id="trello">
 					<div class="tech">
 						<h6 class="text" data-i18n="uTech" data-id="used-tech">Tecnologías Utilizadas</h6>
 						<div>
@@ -221,14 +245,14 @@
 
 			<!-- EMPRESA -->
 			<section data-background-image="./src/img/disenador-trabajo-oficina.jpg">
-				<section data-auto-animate>
+				<section data-auto-animate id="bizz-title">
 					<div>
 						<img src="src/svg/edificio.svg" alt="edificio" style="height: 4em;">
 						<img src="src/svg/cartera.svg" alt="cartera" style="height: 4em;">
 					</div>
 					<h3 data-i18n="fBussinnes" class="text">Filr como empresa</h3>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="bizz">
 					<h3 data-i18n="fBussinnes" class="text">Filr como empresa</h3>
 					<div>
 						<img src="src/svg/chart.svg" alt="grafica" style="height: 2em;">
@@ -258,60 +282,60 @@
 
 			<!-- DEMOSTRACIÓN -->
 			<section>
-				<section data-auto-animate>
+				<section data-auto-animate id="glimpse">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<img src="src/svg/logo.svg" alt="logo" style="height: 10em;">
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="vg-adm">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="vg-adm" style="font-size: smaller;">Vista General - Administrador</h6>
 					<video controls>
 						<source src="./src/video/Admin-view-04.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="vg-usr">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="vg-usr" style="font-size: smaller;">Vista General - Usuario</h6>
 					<video controls>
 						<source src="./src/video/User-view-02.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="regNew">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="regNew" style="font-size: smaller;">Registrar un nuevo usuario</h6>
 					<video controls>
 						<source src="./src/video/Register-User.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="permReq">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="permReq" style="font-size: smaller;">Solicitar un Permiso</h6>
 					<video controls>
 						<source src="./src/video/Permitreq-view-01.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="editUsr">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="editUsr" style="font-size: smaller;">Editar el perfil - Usuario</h6>
 					<video controls>
 						<source src="./src/video/EditUser-view-01.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="editAdm">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="editAdm" style="font-size: smaller;">Editar el perfil - Administrador</h6>
 					<video controls>
 						<source src="./src/video/EditAdmin-view-01.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="usrDet">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="usrDet" style="font-size: smaller;">Detalles del Usuario</h6>
 					<video controls>
 						<source src="./src/video/Details-view-01.webm" type="video/webm">
 					</video>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="newDR">
 					<h6 data-i18n="vFilr">Un vistazo a FILR</h6>
 					<h6 data-i18n="newDR" style="font-size: smaller;">Añadir un Rango de Fechas</h6>
 					<video controls>
@@ -322,14 +346,14 @@
 
 			<!-- LÍNEAS A FUTURO -->
 			<section data-background-image="./src/img/futuro-05.jpg">
-				<section data-auto-animate>
+				<section data-auto-animate id="future-title">
 					<div>
 						<img class="margin-x" src="src/svg/trend.svg" alt=""
 							style="height: 4em; display: inline-block;">
 					</div>
 					<h3 data-i18n="future" class="text">Líneas a futuro</h3>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="future">
 					<h3 data-i18n="future" class="text">Líneas a futuro</h3>
 					<ul>
 						<li>
@@ -383,14 +407,24 @@
 			progress: false,
 
 			internation: {
-				locale: "es-ES",
+				locale: "es",
 				localename: 'Español',
 				langattribute: "data-i18n",
 				switchselector: ".langchooser",
 				html: true,
-				languages: {},
+				languages: {
+					en: {
+						name: 'English',
+						dictionary: 'dictionaries/en.json'
+					},
+
+					es: {
+						name: 'Español',
+						dictionary: 'dictionaries/es.json'
+					}
+				},
 				debug: false,
-				makejson: true
+				makejson: false
 			},
 
 			// Learn about plugins: https://revealjs.com/plugins/

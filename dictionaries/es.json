@@ -1,0 +1,96 @@
+{
+    "slides": {
+        "lang": {
+            "lang": "Español"
+        },
+        "filr": {
+            "title": "¿Qué es FILR?"
+        },
+        "require-title": {
+            "reqTitle": "Requisitos del cliente"
+        },
+        "require": {
+            "reqTitle": "Requisitos del cliente",
+            "fControl": "Control de Fichajes",
+            "mTimetable": "Manejar horarios de Empleados",
+            "rEmployee": "Registrar Empleados",
+            "pRequest": "Peticiones de Permisos",
+            "piAccess": "Acceso a la información personal"
+        },
+        "tech": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "laravel": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "vue": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "tail": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "git": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "trello": {
+            "uTech": "Tecnologías Utilizadas"
+        },
+        "bizz-title": {
+            "fBussinnes": "Filr como empresa"
+        },
+        "bizz": {
+            "fBussinnes": "Filr como empresa",
+            "sa": "Sociedad Limitada (número de socios, responsabilidad, clase\t\t\t\t\t\t\t\tde socio)",
+            "ff": "Fuente de financiación",
+            "im": "Ingresos mensuales",
+            "inv": "Inversiones",
+            "loc": "Situación"
+        },
+        "glimpse": {
+            "vFilr": "Un vistazo a FILR"
+        },
+        "vg-adm": {
+            "vFilr": "Un vistazo a FILR",
+            "vg-adm": "Vista General - Administrador"
+        },
+        "vg-usr": {
+            "vFilr": "Un vistazo a FILR",
+            "vg-usr": "Vista General - Usuario"
+        },
+        "regNew": {
+            "vFilr": "Un vistazo a FILR",
+            "regNew": "Registrar un nuevo usuario"
+        },
+        "permReq": {
+            "vFilr": "Un vistazo a FILR",
+            "permReq": "Solicitar un Permiso"
+        },
+        "editUsr": {
+            "vFilr": "Un vistazo a FILR",
+            "editUsr": "Editar el perfil - Usuario"
+        },
+        "editAdm": {
+            "vFilr": "Un vistazo a FILR",
+            "editAdm": "Editar el perfil - Administrador"
+        },
+        "usrDet": {
+            "vFilr": "Un vistazo a FILR",
+            "usrDet": "Detalles del Usuario"
+        },
+        "newDR": {
+            "vFilr": "Un vistazo a FILR",
+            "newDR": "Añadir un Rango de Fechas"
+        },
+        "future-title": {
+            "future": "Líneas a futuro"
+        },
+        "future": {
+            "future": "Líneas a futuro",
+            "incRes": "Resolución de incidencias",
+            "repGen": "Generación de informes",
+            "stdDoc": "Adaptación a documentación estándar",
+            "noLec": "Periodos no lectivos",
+            "schTim": "Calendario escolar"
+        }
+    }
+}
